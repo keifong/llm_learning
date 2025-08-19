@@ -1,9 +1,7 @@
-# import streamlit as st
-
-# st.write("Hello world!")
-
 import pandas as pd
 import streamlit as st
+
+st.write("Hello world!")
 
 data_df = pd.DataFrame(
     {
