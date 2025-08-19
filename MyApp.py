@@ -1,16 +1,8 @@
 import streamlit as st
 from openai import OpenAI
 import os
-from dotenv import load_dotenv
 
-
-# Load your custom env file
-load_dotenv("myapi.env")
-
-# Get your API key
 api_key = os.getenv("OPENAI_API_KEY")
-
-# Initialize the OpenAI client
 client = OpenAI(api_key=api_key)
 
 
